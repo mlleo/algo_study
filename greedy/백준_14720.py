@@ -6,7 +6,7 @@ data= map(int, input().split())
 '''
 
 first = 0		// 맨 처음에는 딸기우유
-count = 0	// 우유 갯수
+count = 0		// 우유 갯수
 
 for milk in data:
 	if milk == (first % 3):	// first 값을 순차적으로 증가시키면서 3으로 나눈 나머지를 통해 비교
